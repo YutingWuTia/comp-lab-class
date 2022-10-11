@@ -1,0 +1,1 @@
+# Put the inputs from the tutorial here in an organized way
