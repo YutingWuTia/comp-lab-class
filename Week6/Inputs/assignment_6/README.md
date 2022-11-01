@@ -7,6 +7,11 @@
 __topolA.tpr__, __dialaA.pdb__ :copied from ../
 __plumed.dat__: ref: ../assignment_3/__plumed.dat__ & assignment instruction
 
+$ sbatch metadynamic.sbatch
+the slurm.out file says we do not run the last 2 commands succefully
+so we run:
+$ mkdir StrideHills
+$ sbatch sum_hills.sbatch
 
 
 
