@@ -1,4 +1,4 @@
-# 2d WCA system, random initial configuration
+# 2d WCA system, random initial configuration 
 
 #variable density equal 0.5
 variable initial_temperature equal 3.0
