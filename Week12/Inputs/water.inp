@@ -1,10 +1,10 @@
 &GLOBAL
   ! the project name is made part of most output files... useful to keep order 
-  PROJECT ___FILL_IN___
+  PROJECT water_aimd_1ps_every0.5fs
   ! various runtypes (energy, geo_opt, etc.) available.
   RUN_TYPE MD             
   ! limit the runs to 5min
-  WALLTIME ___FILL_IN___
+  WALLTIME 21600
   ! reduce the amount of IO
   IOLEVEL  LOW 
 &END GLOBAL
@@ -141,7 +141,7 @@
    ENSEMBLE NVT  ! sampling the canonical ensemble, accurate properties might need NVE
    TEMPERATURE [K] 300
    TIMESTEP [fs] 0.5
-   STEPS  ___FILL_IN___
+   STEPS  2000
    # GLE thermostat as generated at http://epfl-cosmo.github.io/gle4md 
    # GLE provides an effective NVT sampling.
    &THERMOSTAT
